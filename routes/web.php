@@ -18,7 +18,7 @@ use GuzzleHttp\Client;
 Route::get('/{apiendpoint}', function ($apiendpoint) {
 
 //$widgety = new App\Widgety\WidgetyAPI($client);
-	$res = App\Widgety\Widgety::callAPI($apiendpoint);
+	$res = Widgety::callAPI($apiendpoint);
 
 	// App::make('widgety')->callAPI($apiendpoint);
 

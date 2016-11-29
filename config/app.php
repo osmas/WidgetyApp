@@ -225,7 +225,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Widgety' => App\Widgety\Facade\Widgety::class,
+        'Widgety' => App\Widgety\Widgety::class,
     ],
 
 ];
